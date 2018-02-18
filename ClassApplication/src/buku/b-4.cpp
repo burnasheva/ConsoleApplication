@@ -1,5 +1,4 @@
-#include<conio.h>
-#include<stdio.h>
+#include <stdio.h>
 
 //4.4.1 Halaman 16
 int main441() {
@@ -14,7 +13,6 @@ int main441() {
 
 	printf("Nilai absolut dari %d adalah %d\n", bil, absolut);
 
-	getch();
 	return 0;
 }
 
@@ -33,8 +31,7 @@ int main442() {
 	} else {
 		printf("%d habis dibagi %d\n", pembilang, penyebut);
 	}
-
-	getch();
+	
 	return 0;
 }
 
@@ -50,7 +47,6 @@ int main443() {
 	else
 		printf("Karakter tersebut termasuk huruf kapital\n");
 
-	getch();
 	return 0;
 }
 
@@ -84,6 +80,5 @@ int main446() {
 		printf("Gunakan operator * atau / atau + atau - saja\n");
 	}
 
-	getch();
 	return 0;
 }

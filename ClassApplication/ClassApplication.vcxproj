@@ -102,7 +102,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_NONSTDC_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
@@ -147,37 +147,72 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\buku\2.cpp" />
-    <ClCompile Include="src\buku\3.cpp" />
-    <ClCompile Include="src\buku\4.cpp" />
-    <ClCompile Include="src\buku\5.cpp" />
-    <ClCompile Include="src\experimental\Experimental.cpp" />
-    <ClCompile Include="src\gerakSatelit.cpp" />
-    <ClCompile Include="src\kasir\Kasir (Dengan belanja tertinggi, total pendapatan, dan rata-rata pendapatan).cpp" />
-    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy dan nama konsumen).cpp" />
-    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy).cpp" />
-    <ClCompile Include="src\kasir\Kasir (Do-while seperti for).cpp" />
-    <ClCompile Include="src\kasir\Kasir (Do-while).cpp" />
-    <ClCompile Include="src\kasir\Kasir (For).cpp" />
-    <ClCompile Include="src\kasir\kasir.cpp" />
-    <ClCompile Include="src\latihan.cpp" />
-    <ClCompile Include="src\luasCincin\1a.cpp" />
-    <ClCompile Include="src\luasCincin\1b.cpp" />
-    <ClCompile Include="src\luasCincin\2.cpp" />
-    <ClCompile Include="src\luasCincin\5.cpp" />
-    <ClCompile Include="src\matriks\matriks-fungsi.cpp" />
-    <ClCompile Include="src\matriks\matriks-penjumlahan.cpp" />
-    <ClCompile Include="src\matriks\matriks.cpp" />
-    <ClCompile Include="src\postTest\1.cpp" />
-    <ClCompile Include="src\postTest\4.cpp" />
-    <ClCompile Include="src\postTest\5b.cpp" />
-    <ClCompile Include="src\postTest\5c.cpp" />
+    <ClCompile Include="src\buku\b-2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\experimental\experimental.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\gerakSatelit.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (Dengan belanja tertinggi, total pendapatan, dan rata-rata pendapatan).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy dan nama konsumen).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (Do-while seperti for).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (Do-while).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\Kasir (For).cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\kasir\kasir.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-1a.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-1b.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\matriks\matriks-fungsi.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\matriks\matriks-penjumlahan.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="src\matriks\matriks.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\gotoxy-m.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\layout\whatever" />
+    <None Include="res\layout\kasir" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

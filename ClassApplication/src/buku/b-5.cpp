@@ -1,5 +1,4 @@
-#include<conio.h>
-#include<stdio.h>
+#include <stdio.h>
 
 //5.4.4 Halaman 24
 int main544() {
@@ -11,8 +10,7 @@ int main544() {
 		printf("%3d %5d\n", hitung, hasil);
 		++hitung;
 	}
-
-	getch();
+	
 	return 0;
 }
 
@@ -31,8 +29,7 @@ int main545() {
 		bil2 = sisa;
 	}
 	printf("Pembagi bersama terbaik dari keduanya adalah %d", bil1);
-
-	getch();
+	
 	return 0;
 }
 
@@ -47,7 +44,6 @@ int main546() {
 		printf("%3d %5d\n", hitung, hasil);
 		++hitung;
 	} while (hitung <= 10);
-
-	getch();
+	
 	return 0;
 }

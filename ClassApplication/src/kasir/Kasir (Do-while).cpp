@@ -54,5 +54,5 @@ main()
         printf("\n\nApakah masih ada pelanggan ? jika ya klik '1' jika tidak klik '2' = "); scanf("%d", &P);
     } while (P == 1);
     printf("program selesai");
-    getch();
+    
 }

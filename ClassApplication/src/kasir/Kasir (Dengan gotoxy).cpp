@@ -87,5 +87,5 @@ main()
     printf("Total pemasukan hari ini            \n= Rp %f\n", T);
     R = T/a;
     printf("Rata-rata pembelian setiap konsumen \n= Rp %f", R);
-    getch();
+    
 }

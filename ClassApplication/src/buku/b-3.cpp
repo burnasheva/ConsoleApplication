@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
 
 //3.4.1 Halaman 12
 int main341() {
@@ -16,8 +15,7 @@ int main341() {
 	printf("Nilai %d <= %d adalah %d\n", x, y, x <= y);
 	printf("Nilai %d >= %d adalah %d\n", x, y, x >= y);
 	printf("Nilai %d != %d adalah %d\n", x, y, x != y);
-
-	getch();
+	
 	return 0;
 }
 
@@ -39,7 +37,6 @@ int main342() {
 	printf("Nilai !%d adalah %d\n", x, !x);
 	printf("Nilai !%d adalah %d\n", y, !y);
 
-	getch();
 	return 0;
 }
 
@@ -56,8 +53,7 @@ int main343() {
 	m = (x > 10) || (y < 10);
 	printf("Nilai dari (%d < 10) && (%d > 10) adalah %d\n", x, y, n);
 	printf("Nilai dari (%d > 10) || (%d < 10) adalah %d\n", x, y, m);
-
-	getch();
+	
 	return 0;
 }
 
@@ -85,7 +81,6 @@ int main34() {
 	printf("Nilai y dari y += (a %% b) adalah %d", y += (a % b));
 	printf("Nilai y dari y -= (a / b) adalah %d", y -= (a / b));
 
-	getch();
 	return 0;
 }
 
@@ -106,7 +101,6 @@ int main345() {
 			(a > b ? "besar" : "kecil"));
 	printf("Nilai c dibanding d adalah c lebih %s daripada d\n",
 			(c > d ? "besar" : "kecil"));
-
-	getch();
+	
 	return 0;
 }

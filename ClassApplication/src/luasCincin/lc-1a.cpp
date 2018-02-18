@@ -21,7 +21,7 @@ int main() {
 		LC = Luas(jl) - Luas(jd);
 		printf("Luas Cincin ke %d = %8.1f cm2\n", i, LC);
 	}
-	getch();
+	
 }
 
 float Luas(r)

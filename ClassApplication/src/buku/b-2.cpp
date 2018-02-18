@@ -1,11 +1,8 @@
 #include <stdio.h>
-#include <conio.h>
 
 int main242() {
 	int a, b, c, d, hasil;
 
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
 	printf("1310171041\n\n\n");
 
 	printf("Masukkan nilai a b =\n");
@@ -32,7 +29,6 @@ int main242() {
 	hasil = a * b + c * d;
 	printf("Hasil dari: a * b + c * d adalah %d\n", hasil);
 
-	getch();
 	return 0;
 }
 
@@ -43,8 +39,6 @@ int main243() {
 	float c = 11.0;
 	float d = 7.0;
 
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
 	printf("1310171041\n\n\n");
 
 	printf("6 + a / 5 * b = %d\n\n", 6 + a, 5 * b);
@@ -52,15 +46,12 @@ int main243() {
 	printf("c / d * d = %f\n\n", c / d * d);
 	printf("-a = %d\n", -a);
 
-	getch();
 	return 0;
 }
 
 int main244() {
 	int a = 14, b = 2, c = 3, d = 4;
 
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
 	printf("1310171041\n\n\n");
 
 	printf("a %% b = %d\n\n", a % b);
@@ -68,7 +59,6 @@ int main244() {
 	printf("a %% d = %d\n\n", a % d);
 	printf("a / d * d + a %% d = %d\n", a / d * d + a % d);
 
-	getch();
 	return 0;
 }
 
@@ -76,8 +66,6 @@ int main245() {
 	float p1 = 123.45678, p2;
 	int b1, b2 = -150;
 
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
 	printf("1310171041\n\n\n");
 
 	b1 = p1;
@@ -92,15 +80,12 @@ int main245() {
 	p2 = b2 / 100.0;
 	printf("%d dibagi 100 menghasilkan %f\n\n", b2, p2);
 
-	getch();
 	return 0;
 }
 
 int main246() {
 	int x, y, z;
 
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
 	printf("1310171041\n\n\n");
 	x = 80;
 	y = x++;
@@ -111,15 +96,14 @@ int main246() {
 	z = --x;
 	printf("Nilai dari x, y, z adalah %d, %d, %d", x, y, z);
 
-	getch();
 	return 0;
 }
 
 int main247() {
-	printf("WAFI AZMI HARTONO\n");
-	printf("D4 ELEKTRO INDUSTRI B\n");
-	printf("1310171041\n\n\n");
 	float x;
+
+	printf("1310171041\n\n\n");
+	
 	printf("Masukkan nilai pecahan yang akan ditampilkan : ");
 	scanf("%f", &x);
 
@@ -127,6 +111,5 @@ int main247() {
 	printf("format f => %f\n", x);
 	printf("format g => %g\n", x);
 
-	getch();
 	return 0;
 }

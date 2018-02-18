@@ -67,6 +67,6 @@ int main() {
 	printf("  / Belanja tertinggi = RpXXXXXXXXXXXXXXX\n");
 	printf("    atas nama XXXXXXXXXXXXXXXXXXXX\n");
 
-	getch();
+	
 	return 0;
 }

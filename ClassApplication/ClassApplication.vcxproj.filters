@@ -28,26 +28,11 @@
     <Filter Include="Source Files\matriks">
       <UniqueIdentifier>{e63362cb-e6f4-4913-87c5-e495d2dd2fe8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\postTest">
-      <UniqueIdentifier>{e9143f80-3d6c-40a7-864d-54f1e49eb547}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\experimental">
       <UniqueIdentifier>{47fa29e7-6b07-4961-8d20-cbbb37f3c216}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\buku\2.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\3.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\4.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\5.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
     <ClCompile Include="src\kasir\Kasir (Dengan belanja tertinggi, total pendapatan, dan rata-rata pendapatan).cpp">
       <Filter>Source Files\kasir</Filter>
     </ClCompile>
@@ -69,18 +54,6 @@
     <ClCompile Include="src\kasir\kasir.cpp">
       <Filter>Source Files\kasir</Filter>
     </ClCompile>
-    <ClCompile Include="src\luasCincin\1a.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\1b.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\2.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\5.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
     <ClCompile Include="src\matriks\matriks.cpp">
       <Filter>Source Files\matriks</Filter>
     </ClCompile>
@@ -90,26 +63,35 @@
     <ClCompile Include="src\matriks\matriks-penjumlahan.cpp">
       <Filter>Source Files\matriks</Filter>
     </ClCompile>
-    <ClCompile Include="src\postTest\1.cpp">
-      <Filter>Source Files\postTest</Filter>
-    </ClCompile>
-    <ClCompile Include="src\postTest\4.cpp">
-      <Filter>Source Files\postTest</Filter>
-    </ClCompile>
-    <ClCompile Include="src\postTest\5b.cpp">
-      <Filter>Source Files\postTest</Filter>
-    </ClCompile>
-    <ClCompile Include="src\postTest\5c.cpp">
-      <Filter>Source Files\postTest</Filter>
-    </ClCompile>
     <ClCompile Include="src\gerakSatelit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\latihan.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\experimental\Experimental.cpp">
+    <ClCompile Include="src\experimental\experimental.cpp">
       <Filter>Source Files\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-1a.cpp">
+      <Filter>Source Files\luasCincin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-5.cpp">
+      <Filter>Source Files\luasCincin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-2.cpp">
+      <Filter>Source Files\luasCincin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\luasCincin\lc-1b.cpp">
+      <Filter>Source Files\luasCincin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-2.cpp">
+      <Filter>Source Files\buku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-3.cpp">
+      <Filter>Source Files\buku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-4.cpp">
+      <Filter>Source Files\buku</Filter>
+    </ClCompile>
+    <ClCompile Include="src\buku\b-5.cpp">
+      <Filter>Source Files\buku</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -118,7 +100,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\layout\whatever">
+    <None Include="res\layout\kasir">
       <Filter>Resource Files\layout</Filter>
     </None>
   </ItemGroup>

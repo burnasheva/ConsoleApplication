@@ -24,7 +24,7 @@ int main() {
 		printf("\t==>Luas Cincin ke %d = %8.1f cm2\n", i, LC);
 	}
 
-	getch();
+	
 }
 
 float Luas(float r) {

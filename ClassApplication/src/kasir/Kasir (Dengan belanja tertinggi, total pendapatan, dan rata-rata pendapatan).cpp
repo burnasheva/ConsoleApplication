@@ -73,5 +73,5 @@ int main()
     R = T/a;
     printf("Rata-rata pembelian setiap konsumen \n= Rp %f", R);
 
-    getch(); return 0;
+     return 0;
 }
