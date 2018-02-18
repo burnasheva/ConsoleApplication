@@ -1,4 +1,4 @@
-  / Program Kasir Toko Expendabros
+  / Program Kasir
     1310171041
    _________________________________________________
   |                                                 |
@@ -6,25 +6,25 @@
   |                                                 |
   | Nama konsumen: XXXXXXXXXXXXXXXXXXXX             |
   |                                                 |
-  | Jumlah barang = XXXXX                           |
+  | Jumlah barang = X                               |
   |  _____________________________________________  |
   | | Barang | Jumlah |    Harga    |    Total    | |
   | |---------------------------------------------| |
-  | | XXXXXX | XXXXXX | RpXXXXXXXXX | RpXXXXXXXXX | |
+  | | XXXXXX | XXXXXX | RpX.XXX.XXX | RpX.XXX.XXX | |
   | |---------------------------------------------| |
-  | |                         Total | RpXXXXXXXXX | |
+  | |                         Total | RpX.XXX.XXX | |
   | |_______________________________|_____________| |
   |                                                 |
   | &MSG                                            | &MSG: Selamat Anda mendapatkan diskon 10%!
   | &MSG                                            | &MSG: Dapatkan diskon 10%,
   |                                                 |       dengan belanja lebih dari 50 ribu!
-  | Total belanja    = RpXXXXXXXXXXXX               |
-  | Diskon           = RpXXXXXXXXXXXX               |
-  |                    ______________ _             |
-  | Total belanja      RpXXXXXXXXXXXX               |
+  | Total            = Rp                           |
+  | Diskon           = Rp                           |
+  |                    ___________________ _        |
+  | Total belanja      Rp                           |
   |                                                 |
-  | Jumlah uang      = RpXXXXXXXXXXXX               |
-  | Jumlah kembalian = RpXXXXXXXXXXXX               |
+  | Jumlah uang      = Rp                           |
+  | Jumlah kembalian = Rp                           |
   |                                                 |
   | Terima kasih! Selamat datang kembali            |
   |_________________________________________________|
