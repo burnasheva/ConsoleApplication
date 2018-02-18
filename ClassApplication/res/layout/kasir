@@ -1,33 +1,33 @@
   / Program Kasir
     1310171041
-   _________________________________________________
-  |                                                 |
-  | Struk belanja Toko Expendabros            XXXXX |
-  |                                                 |
-  | Nama konsumen: XXXXXXXXXXXXXXXXXXXX             |
-  |                                                 |
-  | Jumlah barang = X                               |
-  |  _____________________________________________  |
-  | | Barang | Jumlah |    Harga    |    Total    | |
-  | |---------------------------------------------| |
-  | | XXXXXX | XXXXXX | RpX.XXX.XXX | RpX.XXX.XXX | |
-  | |---------------------------------------------| |
-  | |                         Total | RpX.XXX.XXX | |
-  | |_______________________________|_____________| |
-  |                                                 |
-  | &MSG                                            | &MSG: Selamat Anda mendapatkan diskon 10%!
-  | &MSG                                            | &MSG: Dapatkan diskon 10%,
-  |                                                 |       dengan belanja lebih dari 50 ribu!
-  | Total            = Rp                           |
-  | Diskon           = Rp                           |
-  |                    ___________________ _        |
-  | Total belanja      Rp                           |
-  |                                                 |
-  | Jumlah uang      = Rp                           |
-  | Jumlah kembalian = Rp                           |
-  |                                                 |
-  | Terima kasih! Selamat datang kembali            |
-  |_________________________________________________|
+   _________________________________________________________
+  |                                                         |
+  | Struk belanja Toko Expendabros                    XXXXX |
+  |                                                         |
+  | Nama konsumen:                                          |
+  |                                                         |
+  | Jumlah barang = X                                       |
+  |  _____________________________________________________  |
+  | | Barang | Jumlah |      Harga      |      Total      | |
+  | |-----------------------------------------------------| |
+  | |        |        | RpX.XXX.XXX.XXX | RpX.XXX.XXX.XXX | |
+  | |-----------------------------------------------------| |
+  | |                             Total | RpX.XXX.XXX.XXX | |
+  | |___________________________________|_________________| |
+  |                                                         |
+  | &MSG                                                    | &MSG: Selamat! Anda mendapatkan diskon 10%!
+  | &MSG                                                    | &MSG: Dapatkan diskon 10%,
+  |                                                         |       dengan belanja lebih dari 50 ribu rupiah!
+  | Total            = Rp                                   |
+  | Diskon           = Rp                                   |
+  |                    ___________________ _                |
+  | Total belanja      Rp                                   |
+  |                                                         |
+  | Jumlah uang      = Rp                                   |
+  | Jumlah kembalian = Rp                                   |
+  |                                                         |
+  | Terima kasih! Selamat datang kembali                    |
+  |_________________________________________________________|
   
   / Apakah ada pelanggan lagi?
     (1 jika ya, 0 jika tidak)

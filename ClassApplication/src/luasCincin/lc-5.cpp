@@ -1,41 +1,38 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
 
 float Luas();
 int k;
-main()
 
-{
-    int N, i;
-    float LC;
-    k = 1;
+int main() {
+	int N;
+	float LC;
+	k = 1;
 
-    printf("\n\n\t\tLUAS CINCIN");
-    printf("\n\t\t============");
-    printf("\n\t  Wafi Azmi Hartono");
-    printf("\n\t\t1310171041");
-    printf("\n\n\n*Banyaknya Cincin : ");scanf("%d", &N);
+	printf("Wafi Azmi Hartono | 1310171041\n");
+	printf("Banyaknya cincin: ");
+	scanf("%d", &N);
 
-    for (i=1;i<=N;i++)
-    {
-        printf("\n*Entry data Cincin ke %d :\n",i);
-        LC = Luas() - Luas();
-        printf("\n\tLuas lingkaran luar = %f", Luas());
-        printf("\n\tLuas lingkaran Dalam = %f", Luas());
-        printf("\n\t==>Luas Cincin ke %d = %8.1f cm2\n", i, LC);
-    }
+	for (int i = 1; i <= N; i++) {
+		printf("Entry data cincin ke-%d:\n", i);
+		LC = Luas() - Luas();
+		printf("Luas lingkaran luar = %.2f cm^2\n", Luas());
+		printf("Luas lingkaran Dalam = %.2f cm^2\n", Luas());
+		printf("Luas cincin ke-%d = %.2f cm^2\n", i, LC);
+	}
+
+	return 0;
 }
 
-float Luas ()
-{
-    float PHI = 3.14, L, r;
-    if(k%2 != 0)
-    printf("\nJari-jari lingkaran Luar = ");
-    else
-    printf("\nJari-jari lingkaran Dalam = ");
+float Luas() {
+	const float pi = 3.14159f;
+	float L, r;
+	if (k % 2 != 0) printf("Jari-jari lingkaran Luar = ");
+	else printf("Jari-jari lingkaran Dalam = ");
 
-    scanf("%f", &r);
-    L = PHI * r * r;
-    k++;
-    return(L);
+	scanf("%f", &r);
+	L = pi * r * r;
+	k++;
+	return L;
 }

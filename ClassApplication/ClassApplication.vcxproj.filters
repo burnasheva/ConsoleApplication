@@ -16,9 +16,6 @@
     <Filter Include="Resource Files\layout">
       <UniqueIdentifier>{8b629d4b-44ec-40b8-ac83-c128f4318457}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\buku">
-      <UniqueIdentifier>{1d26242f-0df6-4480-ba9b-72e26c9a91bf}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\kasir">
       <UniqueIdentifier>{6d77bce7-8695-40d6-8fe4-427725c28db2}</UniqueIdentifier>
     </Filter>
@@ -33,27 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\kasir\Kasir (Dengan belanja tertinggi, total pendapatan, dan rata-rata pendapatan).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy dan nama konsumen).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\Kasir (Do-while seperti for).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\Kasir (Do-while).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\Kasir (For).cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\kasir.cpp">
-      <Filter>Source Files\kasir</Filter>
-    </ClCompile>
     <ClCompile Include="src\matriks\matriks.cpp">
       <Filter>Source Files\matriks</Filter>
     </ClCompile>
@@ -69,9 +45,6 @@
     <ClCompile Include="src\experimental\experimental.cpp">
       <Filter>Source Files\experimental</Filter>
     </ClCompile>
-    <ClCompile Include="src\luasCincin\lc-1a.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
     <ClCompile Include="src\luasCincin\lc-5.cpp">
       <Filter>Source Files\luasCincin</Filter>
     </ClCompile>
@@ -81,17 +54,8 @@
     <ClCompile Include="src\luasCincin\lc-1b.cpp">
       <Filter>Source Files\luasCincin</Filter>
     </ClCompile>
-    <ClCompile Include="src\buku\b-2.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\b-3.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\b-4.cpp">
-      <Filter>Source Files\buku</Filter>
-    </ClCompile>
-    <ClCompile Include="src\buku\b-5.cpp">
-      <Filter>Source Files\buku</Filter>
+    <ClCompile Include="src\kasir\kasir-m.cpp">
+      <Filter>Source Files\kasir</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
