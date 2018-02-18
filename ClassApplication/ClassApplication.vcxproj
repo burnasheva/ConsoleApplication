@@ -147,7 +147,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClassApplication.cpp" />
+    <ClCompile Include="src\buku\2.cpp" />
+    <ClCompile Include="src\buku\3.cpp" />
+    <ClCompile Include="src\buku\4.cpp" />
+    <ClCompile Include="src\buku\5.cpp" />
+    <ClCompile Include="src\experimental\Experimental.cpp" />
+    <ClCompile Include="src\gerakSatelit.cpp" />
+    <ClCompile Include="src\kasir\Kasir (Dengan belanja tertinggi, total pendapatan, dan rata-rata pendapatan).cpp" />
+    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy dan nama konsumen).cpp" />
+    <ClCompile Include="src\kasir\Kasir (Dengan gotoxy).cpp" />
+    <ClCompile Include="src\kasir\Kasir (Do-while seperti for).cpp" />
+    <ClCompile Include="src\kasir\Kasir (Do-while).cpp" />
+    <ClCompile Include="src\kasir\Kasir (For).cpp" />
+    <ClCompile Include="src\kasir\kasir.cpp" />
+    <ClCompile Include="src\latihan.cpp" />
+    <ClCompile Include="src\luasCincin\1a.cpp" />
+    <ClCompile Include="src\luasCincin\1b.cpp" />
+    <ClCompile Include="src\luasCincin\2.cpp" />
+    <ClCompile Include="src\luasCincin\5.cpp" />
+    <ClCompile Include="src\matriks\matriks-fungsi.cpp" />
+    <ClCompile Include="src\matriks\matriks-penjumlahan.cpp" />
+    <ClCompile Include="src\matriks\matriks.cpp" />
+    <ClCompile Include="src\postTest\1.cpp" />
+    <ClCompile Include="src\postTest\4.cpp" />
+    <ClCompile Include="src\postTest\5b.cpp" />
+    <ClCompile Include="src\postTest\5c.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\gotoxy-m.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\layout\whatever" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

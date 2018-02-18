@@ -1,0 +1,41 @@
+  / Program Kasir Toko Expendabros
+    1310171041
+   _________________________________________________
+  |                                                 |
+  | Struk belanja Toko Expendabros            XXXXX |
+  |                                                 |
+  | Nama konsumen: XXXXXXXXXXXXXXXXXXXX             |
+  |                                                 |
+  | Jumlah barang = XXXXX                           |
+  |  _____________________________________________  |
+  | | Barang | Jumlah |    Harga    |    Total    | |
+  | |---------------------------------------------| |
+  | | XXXXXX | XXXXXX | RpXXXXXXXXX | RpXXXXXXXXX | |
+  | |---------------------------------------------| |
+  | |                         Total | RpXXXXXXXXX | |
+  | |_______________________________|_____________| |
+  |                                                 |
+  | &MSG                                            | &MSG: Selamat Anda mendapatkan diskon 10%!
+  | &MSG                                            | &MSG: Dapatkan diskon 10%,
+  |                                                 |       dengan belanja lebih dari 50 ribu!
+  | Total belanja    = RpXXXXXXXXXXXX               |
+  | Diskon           = RpXXXXXXXXXXXX               |
+  |                    ______________ _             |
+  | Total belanja      RpXXXXXXXXXXXX               |
+  |                                                 |
+  | Jumlah uang      = RpXXXXXXXXXXXX               |
+  | Jumlah kembalian = RpXXXXXXXXXXXX               |
+  |                                                 |
+  | Terima kasih! Selamat datang kembali            |
+  |_________________________________________________|
+  
+  / Apakah ada pelanggan lagi?
+    (1 jika ya, 0 jika tidak)
+  $ X
+  
+  / Total pendapatan  = RpXXXXXXXXXXXXXXX
+  
+  / Rata-rata belanja = RpXXXXXXXXXXXXXXX
+  
+  / Belanja tertinggi = RpXXXXXXXXXXXXXXX
+    atas nama XXXXXXXXXXXXXXXXXXXX
