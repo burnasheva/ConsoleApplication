@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
 #include <string>
-#include "/Repos/ConsoleApplication/ClassApplication/header/gotoxy-m.h"
+#include "gotoxy-m.h"
 
-char* format(int);
+char* format(unsigned long int);
 void printBlank();
 void resetCL();
 
@@ -20,6 +20,7 @@ int main() {
 	D = 0;
 	K = 0;
 	M = 0;
+	T = 0;
 	CL = 1;
 	do {
 		K++;
@@ -97,7 +98,7 @@ int main() {
 		printf("%17s", format(TJH));
 		resetCL();
 
-		JD = TJH * D;
+		JD = static_cast<int>(TJH * D);
 		JB[K] = TJH - JD;
 
 		printf("  | Diskon           = Rp                                   ||\n");
@@ -137,6 +138,8 @@ int main() {
 		printf("    (1 jika ya, 0 jika tidak)\n");
 		printf("  $ X\n");
 
+		scanf("&d", &P);
+
 		CL += 8;
 		gotoxy(1, CL);
 
@@ -169,17 +172,19 @@ void resetCL() {
 	gotoxy(1, CL);
 }
 
-char* format(unsigned long int in) {
+char* formatCurrencyValue(unsigned long int in) {
 	std::string inS = std::to_string(in);
 	int l = static_cast<int>(inS.length());
 
-	unsigned int r = l / 3;
+	unsigned long int r = l / 3;
 	if (r != 0) {
 		if (l % 3 == 0) r--;
-		for (unsigned int i = 1; i <= r; i++) {
+		for (unsigned long int i = 1; i <= r; i++) {
 			inS.insert(l - 3 * i, ".");
 		}
 	}
-
-	return (inS.c_str);
+	char* value = new char[inS.length() + 1];
+	strcpy(value, inS.c_str());
+	
+	return (value);
 }

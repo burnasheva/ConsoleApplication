@@ -42,9 +42,6 @@
     <ClCompile Include="src\gerakSatelit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\experimental\experimental.cpp">
-      <Filter>Source Files\experimental</Filter>
-    </ClCompile>
     <ClCompile Include="src\luasCincin\lc-5.cpp">
       <Filter>Source Files\luasCincin</Filter>
     </ClCompile>
@@ -56,6 +53,15 @@
     </ClCompile>
     <ClCompile Include="src\kasir\kasir-m.cpp">
       <Filter>Source Files\kasir</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kalkulator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bigProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experimental\experimental.cpp">
+      <Filter>Source Files\experimental</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
