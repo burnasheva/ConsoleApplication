@@ -14,35 +14,32 @@ int main() {
 	float D;
 	unsigned long int H, J, JB[10000], JD, JH, JU, K, M, N, P, R, T, TJH, UK;
 
-	printf("  // Program Kasir\n");
+	printf("  / Program Kasir\n");
 	printf("    1310171041\n");
 
 	D = 0;
 	K = 0;
 	M = 0;
 	T = 0;
-	CL = 1;
+	CL = 3;
 	do {
 		K++;
 		TJH = 0;
 
 		printf("   _________________________________________________________\n");
-		CL += 2;
 		printBlank();
-		printf("  | Struk belanja Toko XXX                                %5d |\n", K);
+		printf("  | Struk belanja Toko XXX                            %5d |\n", K);
 		printBlank();
 		printf("  | Nama konsumen:                                          |\n");
 		CL += 4;
 		gotoxy(20, CL);
 		scanf("%s", &NK[K]);
-		resetCL();
 
 		printBlank();
 		printf("  | Jumlah barang =                                         |\n");
-		CL += 1;
+		CL += 2;
 		gotoxy(21, CL);
 		scanf("%d", &N);
-		resetCL();
 
 		printf("  |  _____________________________________________________  |\n");
 		printf("  | | Barang | Jumlah |      Harga      |      Total      | |\n");
@@ -50,7 +47,7 @@ int main() {
 		CL += 3;
 
 		for (unsigned int i = 1; i <= N; i++) {
-			printf("  | | %6d    |        | Rp              | Rp              | |\n", i);
+			printf("  | | %6d |        | Rp              | Rp              | |\n", i);
 			CL++;
 			gotoxy(16, CL);
 			scanf("%d", &J);
@@ -66,17 +63,13 @@ int main() {
 			TJH += JH;
 			gotoxy(45, CL);
 			printf("%13s", format(JH));
-			gotoxy(1, CL);
-
 		}
 
-		CL++;
 		printf("  | |-----------------------------------------------------| |\n");
 		printf("  | |                             Total | Rp              | |\n");
-		CL++;
+		CL += 2;
 		gotoxy(45, CL);
 		printf("%13s", format(TJH));
-		resetCL();
 
 		printf("  | |___________________________________|_________________| |\n");
 		printBlank();
@@ -93,25 +86,23 @@ int main() {
 
 		printBlank();
 		printf("  | Total            = Rp                                   |\n");
-		CL += 5;
+		CL += 6;
 		gotoxy(26, CL);
 		printf("%17s", format(TJH));
-		resetCL();
 
 		JD = static_cast<int>(TJH * D);
 		JB[K] = TJH - JD;
 
 		printf("  | Diskon           = Rp                                   ||\n");
+		CL++;
 		gotoxy(26, CL);
 		printf("%17s", format(JD));
-		resetCL();
 
 		printf("  |                    ___________________ _                |\n");
 		printf("  | Total belanja      Rp                                   |\n");
-		CL++;
+		CL += 2;
 		gotoxy(26, CL);
 		printf("%17s", format(JB[K]));
-		resetCL();
 
 		printBlank();
 		printf("  | Jumlah uang      = Rp                                   |\n");
@@ -120,14 +111,13 @@ int main() {
 		scanf("%d", &JU);
 		gotoxy(26, CL);
 		printf("%17s", format(JU));
-		resetCL();
 
 		UK = JU - JB[K];
 
 		printf("  | Jumlah kembalian = Rp                                   |\n");
+		CL++;
 		gotoxy(26, CL);
 		printf("%17s", format(UK));
-		resetCL();
 
 		printBlank();
 		printf("  | Terima kasih! Selamat datang kembali                    |\n");
@@ -140,7 +130,7 @@ int main() {
 
 		scanf("&d", &P);
 
-		CL += 8;
+		CL += 9;
 		gotoxy(1, CL);
 
 		T += JB[K];
@@ -167,12 +157,7 @@ void printBlank() {
 	printf("  |                                                         |\n");
 }
 
-void resetCL() {
-	CL++;
-	gotoxy(1, CL);
-}
-
-char* formatCurrencyValue(unsigned long int in) {
+char* format(unsigned long int in) {
 	std::string inS = std::to_string(in);
 	int l = static_cast<int>(inS.length());
 

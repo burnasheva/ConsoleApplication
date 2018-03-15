@@ -28,6 +28,9 @@
     <Filter Include="Source Files\experimental">
       <UniqueIdentifier>{47fa29e7-6b07-4961-8d20-cbbb37f3c216}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\bigProgramSrc">
+      <UniqueIdentifier>{5a96fc9b-781e-4a23-bb6e-70b1cb7c3649}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\matriks\matriks.cpp">
@@ -57,11 +60,14 @@
     <ClCompile Include="src\kalkulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\experimental\experimental.cpp">
+      <Filter>Source Files\experimental</Filter>
+    </ClCompile>
     <ClCompile Include="src\bigProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\experimental\experimental.cpp">
-      <Filter>Source Files\experimental</Filter>
+    <ClCompile Include="src\bigProgramSrc\biseksi.cpp">
+      <Filter>Source Files\bigProgramSrc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
