@@ -19,43 +19,16 @@
     <Filter Include="Source Files\kasir">
       <UniqueIdentifier>{6d77bce7-8695-40d6-8fe4-427725c28db2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\luasCincin">
-      <UniqueIdentifier>{2efbb9bd-6934-4383-95d8-524da14dac5c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\matriks">
-      <UniqueIdentifier>{e63362cb-e6f4-4913-87c5-e495d2dd2fe8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\experimental">
       <UniqueIdentifier>{47fa29e7-6b07-4961-8d20-cbbb37f3c216}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\bigProgramSrc">
+    <Filter Include="Source Files\bigProgram">
       <UniqueIdentifier>{5a96fc9b-781e-4a23-bb6e-70b1cb7c3649}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\matriks\matriks.cpp">
-      <Filter>Source Files\matriks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\matriks\matriks-fungsi.cpp">
-      <Filter>Source Files\matriks</Filter>
-    </ClCompile>
-    <ClCompile Include="src\matriks\matriks-penjumlahan.cpp">
-      <Filter>Source Files\matriks</Filter>
-    </ClCompile>
     <ClCompile Include="src\gerakSatelit.cpp">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\lc-5.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\lc-2.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\luasCincin\lc-1b.cpp">
-      <Filter>Source Files\luasCincin</Filter>
-    </ClCompile>
-    <ClCompile Include="src\kasir\kasir-m.cpp">
-      <Filter>Source Files\kasir</Filter>
     </ClCompile>
     <ClCompile Include="src\kalkulator.cpp">
       <Filter>Source Files</Filter>
@@ -63,11 +36,14 @@
     <ClCompile Include="src\experimental\experimental.cpp">
       <Filter>Source Files\experimental</Filter>
     </ClCompile>
-    <ClCompile Include="src\bigProgram.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="src\bigProgram\srcBiseksi.cpp">
+      <Filter>Source Files\bigProgram</Filter>
     </ClCompile>
-    <ClCompile Include="src\bigProgramSrc\biseksi.cpp">
-      <Filter>Source Files\bigProgramSrc</Filter>
+    <ClCompile Include="src\bigProgram\bigProgram.cpp">
+      <Filter>Source Files\bigProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\kasir\kasir-custom.cpp">
+      <Filter>Source Files\kasir</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
