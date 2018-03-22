@@ -3,7 +3,7 @@
 
 float F(float);
 
-int main() {
+int maina() {
 
 	float xl, xr, xo;
 	int k;
@@ -58,4 +58,13 @@ int main() {
 float F(float X) {
 	float val = static_cast<float>((-2) * pow(X, 2) - 6 * X + 8);
 	return val;
+}
+
+int main() {
+	float fa = 8;
+	double dou = 7;
+
+	printf("float %f\ndouble %f", fa, dou);
+
+	return 0;
 }

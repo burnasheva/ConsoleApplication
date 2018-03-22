@@ -30,20 +30,20 @@
     <ClCompile Include="src\gerakSatelit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\kalkulator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\experimental\experimental.cpp">
-      <Filter>Source Files\experimental</Filter>
-    </ClCompile>
-    <ClCompile Include="src\bigProgram\srcBiseksi.cpp">
-      <Filter>Source Files\bigProgram</Filter>
-    </ClCompile>
     <ClCompile Include="src\bigProgram\bigProgram.cpp">
       <Filter>Source Files\bigProgram</Filter>
     </ClCompile>
     <ClCompile Include="src\kasir\kasir-custom.cpp">
       <Filter>Source Files\kasir</Filter>
+    </ClCompile>
+    <ClCompile Include="src\experimental\experimental.cpp">
+      <Filter>Source Files\experimental</Filter>
+    </ClCompile>
+    <ClCompile Include="res\layout\biseksi">
+      <Filter>Resource Files\layout</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bigProgram\biseksi.cpp">
+      <Filter>Source Files\bigProgram</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\layout\kasir">
+    <None Include="res\layout\kasir-custom">
       <Filter>Resource Files\layout</Filter>
     </None>
   </ItemGroup>
