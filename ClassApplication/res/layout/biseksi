@@ -2,23 +2,32 @@
   Mencari akar dari suatu persamaan kuadrat menggunakan metode biseksi.
   
   Wafi Azmi Hartono / 1310171041
-  -----------------------------------------
+  ---------------------------------------------------------------------
   
-  Persamaan kuadrat: -2X^2 - 6X + 8
+  Persamaan kuadrat: -2X^2 - 6X + 8.
   
-  Masukkan dua titik (xl dan xr) yang mengapit akar persamaan
+  Masukkan perkiraan dua titik (xl dan xr) yang mengapit akar persamaan!
   xl = 
   xr = 
 
-  Pengecekan apakah xl dan xr mengapit akar
+  Pengecekan apakah xl dan xr mengapit akar:
   f(xl) = -2(xl^2) - 6(xl) + 8
         = 
   f(xr) = -2(xr^2) - 6(xr) + 8
         = 
   f(xl) * f(xr) =  * 
                 =
-  xl dan xr mengapit/tidak mengapit akar karena f(xl) * f(xr) kurang dari/lebih dari nol
+  xl dan xr mengapit/tidak mengapit akar karena f(xl) * f(xr) kurang dari/lebih dari atau sama dengan nol.
 
-  Masukkan jumlah iterasi
+  Masukkan jumlah iterasi!
   Iterasi = 
+   __________________________________________________________________________________________________________________
+  | Iterasi |       xl       |       xr       |       xo       |      f(xl)      |      f(xr)      |      f(xr)      |
+  |---------|----------------|----------------|----------------|-----------------|-----------------|-----------------|
+  |         | XXXXX.XXXXXXXX | XXXXX.XXXXXXXX | XXXXX.XXXXXXXX | XXXXX.XXXXXXXX  | XXXXX.XXXXXXXX  | XXXXX.XXXXXXXX  |
+  |_________|________________|________________|________________|_________________|_________________|_________________|
 
+  xo terakhir = 
+  xo merupakan akar/akar pendekatan dari persamaan kuadrat -2X^2 - 6X + 8.
+
+  Apakah Anda ingin mengulang program lagi? (1/2)

@@ -1,70 +1,103 @@
-#include <stdio.h>
+#include "gotoxy-m.h"
 #include <math.h>
+#include <stdio.h>
 
-float F(float);
+float f(float);
 
-int maina() {
+int main() {
 
-	float xl, xr, xo;
-	int k;
-
-	printf("Mencari akar dengan metode biseksi\n");
-	printf("Persamaan: -2X^2-6X+8\n");
+	float check, xl, xr, xo;
+	int k, p;
 
 	do {
-		printf("Masukkan dua titik (xl dan xr)\n");
-		scanf("%f %f", &xl, &xr);
-	} while (F(xl) * F(xr) > 0);
+		system("CLS");
 
-	 if (F(xl) == 0 && F(xr) == 0) {
-		printf("%f dan %f adalah akar-akar dari persamaan\n", xl, xr);
-		return 0;
-	} else if (F(xl) == 0) {
-		printf("%f adalah akar-akar dari persamaan\n", xl);
-		return 0;
-	} else if (F(xr) == 0) {
-		printf("%f adalah akar-akar dari persamaan\n", xr);
-		return 0;
-	} 
+		printf("  Program Biseksi\n");
+		printf("  Mencari akar dari suatu persamaan kuadrat menggunakan metode biseksi.\n");
+		printf("\n");
+		printf("  Wafi Azmi Hartono / 1310171041\n");
+		printf("  ---------------------------------------------------------------------\n");
+		printf("\n");
+		printf("  Persamaan kuadrat: -2X^2 - 6X + 8.\n");
+		printf("\n");
 
-	printf("Masukkan berapa kali program harus mencari akar\n");
-	scanf("%d", &k);
+		do {
+			printf("  Masukkan perkiraan dua titik (xl dan xr) yang mengapit akar persamaan!\n");
+			printf("  xl = ");
+			scanf("%f", &xl);
+			printf("  xr = ");
+			scanf("%f", &xr);
+			printf("\n");
 
-	for (int i = 1; i <= k; i++) {
-		xo = (xl + xr) / 2;
-		printf("%d. xl = %f, xr = %f, xo = %f\n", i, xl, xr, xo);
+			printf("  Pengecekan apakah xl dan xr mengapit akar:\n");
+			printf("  f(xl) = -2(%.8f^2) - 6(%.8f) + 8\n", xl, xl);
+			printf("        = %.8f\n", f(xl));
+			printf("  f(xr) = -2(%.8f^2) - 6(%.8f) + 8\n", xr, xr);
+			printf("        = %.8f\n", f(xr));
+			check = f(xl) * f(xr);
+			printf("  f(xl) * f(xr) = %.8f * %.8f\n", f(xl), f(xr));
+			printf("                = %.8f\n", check);
 
-		if (F(xo) == 0) {
-			printf("%f adalah akar dari persamaan\n", xo);
-			i = k++;
-		} else {
-			if (F(xl) * F(xo) > 0) {
-				xl = xo;
+			if (check < 0) {
+				printf("  xl dan xr mengapit akar karena f(xl) * f(xr) kurang dari nol.\n");
 			} else {
-				xr = xo;
+				printf("  xl dan xr tidak mengapit akar karena f(xl) * f(xr) lebih dari atau sama dengan nol.\n");
+			}
+			printf("\n");
+
+		} while (check >= 0);
+		
+		printf("  Masukkan jumlah iterasi!\n");
+		printf("  Iterasi = ");
+		scanf("%d", &k);
+		//printf("%d", k++);
+		
+		printf("   __________________________________________________________________________________________________________________\n");
+		printf("  | Iterasi |       xl       |       xr       |       xo       |      f(xl)      |      f(xr)      |      f(xo)      |\n");
+		printf("  |---------|----------------|----------------|----------------|-----------------|-----------------|-----------------|\n");
+		for (int i = 1; i <= k; i++) {
+			xo = (xl + xr) / 2;
+			
+			printf("  | %7d | %14.8f | %14.8f | %14.8f | %15.8f | %15.8f | %15.8f |\n", i, xl, xr, xo, f(xl), f(xr), f(xo));
+
+			if (f(xo) == 0) {
+				//printf("STOP!\n");
+				i = k;
+			} else {
+				if (f(xl) * f(xo) < 0) {
+					xr = xo;
+				} else {
+					xl = xo;
+				}
 			}
 		}
-	}
+		printf("  |_________|________________|________________|________________|_________________|_________________|_________________|\n");
+		printf("\n");
 
-	if (F(xo) == 0) {
-		printf("Salah satu akar dari persamaan adalah %f\n", xo);
-	} else {
-		printf("Akar pendekatan dari persamaan adalah %f\n", xo);
-	}
+		printf("  xo terakhir = %.8f\n", xo);
+		if (f(xo) == 0) {
+			printf("  xo merupakan akar dari persamaan kuadrat -2X^2 - 6X + 8.\n");
+		} else {
+			printf("  xo merupakan akar pendekatan dari persamaan kuadrat -2X^2 - 6X + 8.\n");
+		}
+		printf("\n");
+
+		printf("  Apakah Anda ingin mengulang program lagi? (1/2)\n  ");
+		scanf("%d", &p);
+	} while (p == 1);
 
 	return 0;
 }
 
-float F(float X) {
-	float val = static_cast<float>((-2) * pow(X, 2) - 6 * X + 8);
+float f(float x) {
+	float val = static_cast<float>((-2) * pow(x, 2) - (6 * x) + 8);
 	return val;
 }
 
-int main() {
-	float fa = 8;
-	double dou = 7;
-
-	printf("float %f\ndouble %f", fa, dou);
-
+//experimental
+int maian() {
+	float x = 7050;
+	printf("%18.8f", x);
+	system("CLS");
 	return 0;
 }
