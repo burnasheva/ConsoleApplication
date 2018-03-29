@@ -45,6 +45,9 @@
     <ClCompile Include="src\bigProgram\biseksi.cpp">
       <Filter>Source Files\bigProgram</Filter>
     </ClCompile>
+    <ClCompile Include="src\bigProgram\regulaFalsi.cpp">
+      <Filter>Source Files\bigProgram</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header\gotoxy-m.h">
