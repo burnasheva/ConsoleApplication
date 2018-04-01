@@ -150,7 +150,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\bigProgram\regulaFalsi.cpp" />
+    <ClCompile Include="src\bigProgram\regulaFalsi-rizal.cpp" />
+    <ClCompile Include="src\bigProgram\regulaFalsi.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="res\layout\biseksi">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -171,7 +174,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header\gotoxy-m.h" />
+    <ClInclude Include="header\gotoxy-mod.h" />
+    <ClInclude Include="header\gotoxy.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\layout\kasir-custom">

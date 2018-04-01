@@ -48,15 +48,21 @@
     <ClCompile Include="src\bigProgram\regulaFalsi.cpp">
       <Filter>Source Files\bigProgram</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="header\gotoxy-m.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="src\bigProgram\regulaFalsi-rizal.cpp">
+      <Filter>Source Files\bigProgram</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\layout\kasir-custom">
       <Filter>Resource Files\layout</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header\gotoxy-mod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header\gotoxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
