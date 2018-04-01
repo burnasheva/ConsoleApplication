@@ -6,8 +6,8 @@ float f(float);
 
 int main() {
 
-	float check, xl, xr, xo, temp;
-	float xlt = 0, xrt = 0, xot = 0, fxlt = 0, fxrt = 0, fxot = 0;
+	float check, xl, xr, xo;
+	//float xlt = 0, xrt = 0, xot = 0, fxlt = 0, fxrt = 0, fxot = 0;
 	int k, p;
 
 	do {
@@ -57,7 +57,7 @@ int main() {
 		printf("  | Iterasi |       xl       |       xr       |       xo       |      f(xl)      |      f(xr)      |      f(xo)      |\n");
 		printf("  |---------|----------------|----------------|----------------|-----------------|-----------------|-----------------|\n");
 		for (int i = 1; i <= k; i++) {
-			xo = (xl + xr) / 2;
+			//xo = (xl + xr) / 2;
 			//temp = (xl * f(xr) - xr * f(xl));
 			//xo = temp / (f(xr) - f(xl));
 			xo = (((xl * f(xr)) - (xr * f(xl))) / (f(xr) - f(xl)));
